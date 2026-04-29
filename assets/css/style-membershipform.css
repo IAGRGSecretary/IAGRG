@@ -1,0 +1,100 @@
+ .page-header {
+    background-color: var(--brand-dark);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 4px solid var(--brand-accent);
+  }
+  
+  .page-header h1 { color: white; font-size: 3rem; margin-bottom: 10px; }
+  .page-header p { font-size: 1.15rem; color: #cbd5e1; max-width: 700px; margin: 0 auto; line-height: 1.6; }
+
+  .content-section {
+    margin-bottom: 60px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    color: var(--brand-dark);
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+
+  /* Step-by-Step List Styling */
+  .process-list {
+    list-style: none;
+    padding: 0;
+    counter-reset: custom-counter;
+  }
+
+  .process-list li {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+  }
+
+  .process-list li::before {
+    counter-increment: custom-counter;
+    content: counter(custom-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    background-color: var(--brand-dark);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: var(--font-heading);
+  }
+
+  /* Fee Table Styling */
+  .fee-table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  .fee-table th, .fee-table td {
+    padding: 15px;
+    border: 1px solid #eee;
+    text-align: left;
+  }
+
+  .fee-table th {
+    background-color: var(--bg-light);
+    color: var(--brand-dark);
+    font-weight: 700;
+  }
+
+  /* Information Cards (Bank Details, etc.) */
+  .info-card {
+    background: var(--bg-light);
+    border-left: 4px solid var(--brand-accent);
+    padding: 25px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  
+  .info-card h4 {
+    margin-top: 0;
+    color: var(--brand-dark);
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .alert-box {
+    background-color: rgba(252, 163, 17, 0.1);
+    border: 1px solid var(--brand-accent);
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: var(--brand-dark);
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
