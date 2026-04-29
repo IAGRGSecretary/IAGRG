@@ -14,6 +14,7 @@ title: N. R. Sen Young Researcher Award
     <p class="award-subtitle">
       Recognising outstanding early-career contributions in gravitational physics
     </p>
+
   </div>
 </header>
 
@@ -28,29 +29,16 @@ title: N. R. Sen Young Researcher Award
       <p>
         The <strong>N. R. Sen Young Researcher Award</strong> recognises young
         researchers for outstanding contributions to gravitational physics.
-      </p>
-
-      <p>
-        The award was instituted at the <strong>27th General Body Meeting of IAGRG</strong>,
-        held on 8 March 2013 at HNB Garhwal University, Srinagar.
+        The award was instituted at the <strong>27th General Body Meeting of IAGRG</strong>, held on 8 March 2013 at HNB Garhwal University, Srinagar.
       </p>
 
       <p>
         The IAGRG Council was entrusted with naming the award and framing the
-        nomination and selection procedures.
-      </p>
-
-      <p>
-        The award carries an honorarium and citation, and the recipient is
-        typically invited to participate in the IAGRG meeting and deliver a lecture.
-      </p>
-
-      <p>
-        This honour reflects IAGRG’s commitment to encouraging promising young
-        scientists and recognising excellence at an early career stage.
+        nomination and selection procedures.The award carries an honorarium and citation, and the recipient is typically invited to participate in the IAGRG meeting and deliver a lecture. This honour reflects IAGRG’s commitment to encouraging promising young scientists and recognising excellence at an early career stage.
       </p>
 
     </div>
+
   </details>
 
 </section>

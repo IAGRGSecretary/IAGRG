@@ -1,3 +1,21 @@
+- block: "2022-2024"
+  winner: "Aditya Vijaykumar"
+  affiliation: "ICTS, Bengaluru"
+  thesis: "To be updated"
+  university: "ICTS, Bengaluru"
+
+- block: "2020-2022"
+  winner: "Akash Kumar Mishra"
+  affiliation: "IIT Gandhinagar, Gandhinagar"
+  thesis: "To be updated"
+  university: "IIT Gandhinagar, Gandhinagar"
+
+- block: "2020-2022"
+  winner: "Ashish Kumar Meena"
+  affiliation: "IISER Mohali, Mohali"
+  thesis: "To be updated"
+  university: "IISER Mohali, Mohali"
+
 - block: "2018-2020"
   winner: "Kabir Chakravarti"
   affiliation: "Inter-University Centre for Astronomy and Astrophysics, Pune"
@@ -48,7 +66,7 @@
 
 - block: "2000-2004"
   winner: "Ranjan Sharma"
-  affiliation: ""
+  affiliation: "To be updated"
   thesis: "A Model for a Class of Compact Stars"
   university: "North Bengal University"
 
