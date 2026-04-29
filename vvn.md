@@ -14,6 +14,7 @@ title: V. V. Narlikar Best Thesis Award
     <p class="award-subtitle">
       Recognising outstanding doctoral research in gravitation and related areas
     </p>
+
   </div>
 </header>
 
@@ -35,34 +36,17 @@ title: V. V. Narlikar Best Thesis Award
         The award traces its origin to a proposal made at the
         <strong>20th General Body Meeting of IAGRG</strong>, held on
         20 January 1999 at D.D.U. Gorakhpur University, to institute a prize
-        for exceptional PhD theses.
-      </p>
-
-      <p>
-        Subsequently, the IAGRG Council resolved to encourage thesis
-        presentations at future meetings, inviting recent PhD recipients
-        in Mathematics and Physics whose work related to gravitation
-        and allied areas.
+        for exceptional PhD theses. Subsequently, the IAGRG Council resolved to encourage thesis presentations at future meetings, inviting recent PhD recipients in Mathematics and Physics whose work related to gravitation and allied areas.
       </p>
 
       <p>
         The recipient would be selected by a panel of referees on the basis
-        of scholarly quality and presentation.
-      </p>
-
-      <p>
-        Following a suggestion by <strong>Prof. P. C. Vaidya</strong>,
-        the prize was named the
-        <strong>Professor V. V. Narlikar Award for Best Thesis in GRG and Related Areas</strong>,
-        in honour of one of India’s distinguished scientific figures.
-      </p>
-
-      <p>
-        The first award was conferred for the block <strong>1997–2000</strong>,
-        and it continues to celebrate excellence in young research scholarship.
+        of scholarly quality and presentation. Following a suggestion by <strong>Prof. P. C. Vaidya</strong>, the prize was named the
+        <strong>Professor V. V. Narlikar Award for Best Thesis in GRG and Related Areas</strong>, in honour of one of India’s distinguished scientific figures.The first award was conferred for the block <strong>1997–2000</strong>, and it continues to celebrate excellence in young research scholarship.
       </p>
 
     </div>
+
   </details>
 
 </section>
