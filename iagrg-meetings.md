@@ -20,7 +20,7 @@ IAGRG Meetings are primarily national-level meetings, typically organized once e
 
 Their format usually includes plenary talks, contributed paper sessions, the Vaidya–Raychaudhuri Endowment Award Lecture, and the General Body Meeting of the IAGRG, which is generally held toward the close of the meeting.
 
-These meetings are typically held over four days and host around 70 participants from institutions across the country.
+The meetings are typically held over four days and host around a large number of participants from institutions across the country.
 
 </div>
 
