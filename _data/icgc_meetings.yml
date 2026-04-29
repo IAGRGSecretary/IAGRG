@@ -1,10 +1,16 @@
 - decade: "2011 — Present"
   meetings:
+    - number: 10
+      title: "ICGC 2023"
+      date: "December 06–09, 2023"
+      venue: "IIT Guwahati"
+      proceedings: "Plenary talks to be made available"
+
     - number: 9
       title: "ICGC 2019"
       date: "December 10–13, 2019"
       venue: "IISER Mohali"
-      proceedings: "To be made available"
+      proceedings: "Plenary talks to be made available"
 
     - number: 8
       title: "ICGC 2015"
