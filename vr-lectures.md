@@ -14,6 +14,7 @@ title: Vaidya–Raychaudhuri Endowment Lecture Awards
     <p class="award-subtitle">
       Recognising excellence in research and teaching of General Relativity and its applications
     </p>
+
   </div>
 </header>
 
@@ -27,31 +28,13 @@ title: Vaidya–Raychaudhuri Endowment Lecture Awards
 
       <p>
         Instituted as a tribute to two doyens of Indian relativity research,
-        <strong>P. C. Vaidya</strong> and <strong>A. K. Raychaudhuri</strong>,
-        this distinguished lecture recognises exceptional contributions in both
-        research and teaching of General Relativity and its applications to
-        astrophysics and cosmology.
+        <a href = "{{'https://en.wikipedia.org/wiki/Prahalad_Chunnilal_Vaidya'|relative_url}}" target = "_blank"><strong>P. C. Vaidya</strong></a> and <a href = "{{'https://en.wikipedia.org/wiki/Amal_Kumar_Raychaudhuri'|relative_url}}" target ="_blank"><strong>A. K. Raychaudhuri </strong></a>, this distinguished lecture recognises exceptional contributions in both research and teaching of General Relativity and its applications to astrophysics and cosmology. The awardee is invited to deliver the <strong>Vaidya–Raychaudhuri Lecture</strong>, traditionally designed to be accessible to the wider gravitation community.
       </p>
-
       <p>
-        The awardee is invited to deliver the
-        <strong>Vaidya–Raychaudhuri Lecture</strong>, traditionally designed to be
-        accessible to the wider gravitation community.
+        The first lecture was delivered at the <strong>15th IAGRG Meeting in 1989</strong>, and it has remained an integral part of IAGRG activities ever since. Since the <strong>26th IAGRG Meeting in 2011</strong>, the lecture has been held annually: during IAGRG meetings in alternate years, and between meetings at venues decided by the General Body Meeting.
       </p>
-
-      <p>
-        The first lecture was delivered at the
-        <strong>15th IAGRG Meeting in 1989</strong>, and it has remained an
-        integral part of IAGRG activities ever since.
-      </p>
-
-      <p>
-        Since the <strong>26th IAGRG Meeting in 2011</strong>, the lecture has
-        been held annually: during IAGRG meetings in alternate years, and between
-        meetings at venues decided by the General Body Meeting.
-      </p>
-
     </div>
+
   </details>
 
 </section>
