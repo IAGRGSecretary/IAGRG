@@ -22,7 +22,7 @@ The International Conference on Gravitation and Cosmology (ICGC) is an internati
 
 Its format generally includes plenary talks and parallel sessions for contributed papers, with some editions also featuring short plenary presentations.
 
-These meetings are usually held over five to six days and attract around 120 participants, including researchers from several countries.
+The meetings are typically held over five days and host a large number of participants from institutions from India and abroad.
 
 </div>
 
