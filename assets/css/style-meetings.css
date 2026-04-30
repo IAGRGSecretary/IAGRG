@@ -113,6 +113,15 @@
   font-size: 1.28rem;
 }
 
+.meeting-title a {
+  color: inherit;            /* keeps your brand color */
+  text-decoration: none;     /* removes underline */
+}
+
+.meeting-title a:hover {
+  text-decoration: underline;
+  color: var(--brand-accent);
+}
 .meeting-date {
   color: var(--text-muted);
   font-size: 0.92rem;
@@ -262,6 +271,10 @@
   font-weight: 700;
   color: var(--brand-dark);
   background: var(--bg-light);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .about-summary::-webkit-details-marker {
@@ -269,12 +282,13 @@
 }
 
 .about-summary::after {
-  content: " ▼";
+  content: "▼";
   color: var(--brand-accent);
+  font-size: 1rem;
 }
 
 .about-block[open] .about-summary::after {
-  content: " ▲";
+  content: "▲";
 }
 
 .about-content {
@@ -303,4 +317,10 @@
 
 .people-landing-grid .meeting-card{
   padding: 28px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin: 50px 0 16px;
+  color: var(--brand-dark);
 }
