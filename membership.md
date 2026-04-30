@@ -20,7 +20,7 @@ title: Membership Information
     
     <ol class="process-list">
       <li><strong>Submit Online Form:</strong> Complete the <a href="{{'https://docs.google.com/forms/d/e/1FAIpQLSdZG3B0nYCliZi0KCQxU7U0PmuloqvL3Glp-jamcgIp7vFt8w/viewform?usp=publish-editor'|relative_url}}" target = "_blank" class="read-link">IAGRG Online Membership Application Form</a>.</li>
-      <li><strong>Alternative Submission:</strong> If you encounter issues with the webform, you may email your completed application form (PDF, DOCX) to <a href="mailto:iagrgcontact@gmail.com">iagrgcontact@gmail.com</a> and <a href="mailto:iagrg.1969@gmail.com">iagrg.1969@gmail.com</a>.</li>
+      <li><strong>Alternative Submission:</strong> If you encounter issues with the webform, you may email your completed application form (<a href="{{ '/assets/mem-files/membershipform.pdf' | relative_url }}" download>PDF</a>, <a href="{{ '/assets/mem-files/membershipform.docx' | relative_url }}" download>DOCX</a>) to <a href="mailto:iagrgcontact@gmail.com">iagrgcontact@gmail.com</a> and <a href="mailto:iagrg.1969@gmail.com">iagrg.1969@gmail.com</a>.</li>
       <li><strong>Review & Approval:</strong> Applications are reviewed periodically by the IAGRG Council. Membership is subject to formal Council approval.</li>
       <li><strong>Notification:</strong> You will be notified of the Council's decision via the email address provided in your application.</li>
     </ol>
