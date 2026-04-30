@@ -40,8 +40,7 @@ title: Members Directory
 
     <div class="member-note">
       To update your affiliation, state, salutation, or if your name is missing
-      from the directory, please contact the <strong>IAGRG Secretary</strong> at
-      iagrgcontact[AT]gmail.com
+      from the directory, please fill the <a href = "{{'https://docs.google.com/forms/d/e/1FAIpQLSfhb6SmXY3VebiY44gqNOsbZDF02oX0C2siM8lp8gZ2UqEvQQ/viewform?usp=dialog'|relative_url}}" target = "_blank "><strong> Membership Update </strong> </a>form.
     </div>
 
   </div>
@@ -69,8 +68,7 @@ title: Members Directory
 
 <div class="intl-member-note">
   To update your international affiliation, country listing, or if your name is
-  missing from this section, please contact the <strong>IAGRG Secretary</strong>
-  at iagrgcontact[AT]gmail.com
+  missing from this section, please fill the <a href = "{{'https://docs.google.com/forms/d/e/1FAIpQLSfhb6SmXY3VebiY44gqNOsbZDF02oX0C2siM8lp8gZ2UqEvQQ/viewform?usp=dialog'|relative_url}}" target = "_blank "><strong> Membership Update </strong> </a>form.
 </div>
 
 </main>
