@@ -1,0 +1,77 @@
+- region: North America
+  institutions:
+    - name: Caltech (LIGO)
+      url: https://www.ligo.caltech.edu/
+      display: ligo.caltech.edu
+
+    - name: Penn State (Inst. for Gravitation & Cosmos)
+      url: https://igc.psu.edu/
+      display: igc.psu.edu
+
+    - name: University of Chicago
+      url: https://physics.uchicago.edu/
+      display: physics.uchicago.edu
+
+    - name: University of Maryland
+      url: https://umdphysics.umd.edu/
+      display: umdphysics.umd.edu
+
+    - name: U. Texas-Austin (Center for Relativity)
+      url: https://ph.utexas.edu/
+      display: ph.utexas.edu
+
+    - name: UW-Milwaukee (CGCA)
+      url: https://cgca.uwm.edu/
+      display: cgca.uwm.edu
+
+    - name: Perimeter Institute (Canada)
+      url: https://perimeterinstitute.ca/
+      display: perimeterinstitute.ca
+
+    - name: UNAM-ICN (Mexico)
+      url: https://www.nucleares.unam.mx/
+      display: nucleares.unam.mx
+
+- region: Europe & United Kingdom
+  institutions:
+    - name: Max Planck Institute (AEI Potsdam)
+      url: https://www.aei.mpg.de/
+      display: aei.mpg.de
+
+    - name: Cambridge University (DAMTP)
+      url: https://www.damtp.cam.ac.uk/
+      display: damtp.cam.ac.uk
+
+    - name: Cardiff University (Gravity Group)
+      url: https://www.cardiff.ac.uk/physics-astronomy/research/
+      display: cardiff.ac.uk
+
+    - name: SIGRAV (Italy)
+      url: https://sigrav.icra.it/
+      display: sigrav.icra.it
+
+    - name: University of Vienna
+      url: https://gravitation.univie.ac.at/
+      display: gravitation.univie.ac.at
+
+    - name: University of Barcelona (ICCUB)
+      url: https://icc.ub.edu/
+      display: icc.ub.edu
+
+- region: Asia & Rest of World
+  institutions:
+    - name: IUCAA (India)
+      url: https://www.iucaa.in/
+      display: iucaa.in
+
+    - name: Raman Research Institute
+      url: https://www.rri.res.in/
+      display: rri.res.in
+
+    - name: Tata Institute of Fundamental Research
+      url: https://www.tifr.res.in/
+      display: tifr.res.in
+
+    - name: Kyoto University
+      url: https://www.kyoto-u.ac.jp/en
+      display: kyoto-u.ac.jp
