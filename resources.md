@@ -7,11 +7,11 @@ title: Resources for Researchers
 
 <header class="resources-header">
   <div class="container">
-    <h1>Knowledge Hub</h1>
+    <h1>Research Resources</h1>
     <p>
-      Curated software, databases, and literature to accelerate your
-      research in general relativity and cosmology.
-    </p>
+A curated collection of research tools, learning resources, and leading
+institutions in general relativity and gravitation.
+</p>
   </div>
 </header>
 
@@ -32,51 +32,35 @@ title: Resources for Researchers
 
   </section>
 
-{% assign categorized_resources = site.data.resources | group_by: "category" %}
+<section class="resource-container global-centers">
 
-{% for category in categorized_resources %}
+  <div class="resource-section-header narrow">
+    <h2 class="category-title">Global Research Centers</h2>
+    <p class="section-intro">
+      A curated directory of leading institutions and research groups in general relativity and gravitation across the world.
+    </p>
+  </div>
 
-  <section class="resource-section">
+  <div class="accordion-wrapper wide">
 
-    <h2 class="category-title">{{ category.name }}</h2>
+    {% for region in site.data.global_resources %}
 
-    <div class="resource-grid">
+    <details class="region-block" {% if forloop.first %}open{% endif %}>
+      <summary class="region-summary">{{ region.region }}</summary>
 
-      {% for resource in category.items %}
+      <div class="institution-grid">
+        {% for inst in region.institutions %}
+        <a href="{{ inst.url }}" target="_blank" class="inst-card">
+          <span class="inst-name">{{ inst.name }}</span>
+          <span class="inst-url">{{ inst.display }}</span>
+        </a>
+        {% endfor %}
+      </div>
 
-      <a href="{{ resource.url }}"
-         class="resource-card"
-         target="_blank"
-         rel="noopener noreferrer">
+    </details>
 
-        <div class="resource-header">
+    {% endfor %}
 
-          <h3 class="resource-title">{{ resource.title }}</h3>
-
-          <div class="tag-container">
-            <span class="badge badge-level">{{ resource.level }}</span>
-
-            {% for tag in resource.tags %}
-            <span class="badge">{{ tag }}</span>
-            {% endfor %}
-          </div>
-
-        </div>
-
-        <p class="resource-desc">{{ resource.description }}</p>
-
-        <span class="resource-link-text">
-          Access Resource →
-        </span>
-
-      </a>
-
-      {% endfor %}
-
-    </div>
-
-  </section>
-
-{% endfor %}
+  </div>
 
 </section>
