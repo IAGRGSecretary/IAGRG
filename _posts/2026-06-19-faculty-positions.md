@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Faculty Positions"
+title: "Faculty Positions at IISER Kolkata"
 date: 2026-06-19 14:44:14 +0530
 category: job
 ---
