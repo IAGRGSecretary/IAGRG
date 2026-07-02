@@ -1,4 +1,18 @@
 committees:
+  - year: "2026–2028"
+    open: true
+    members:
+      - name: Harvinder Kaur Jassal
+        role: Chair
+      - name: Archana Pai
+      - name: Pravabati Chingangbam
+      - name: Raghu Rangarajan
+      - name: Parameswaran Ajith
+      - name: Pravabati Chingangbam
+        role: Ex officio
+      - name: S. Shankaranarayanan
+        role: Ex officio
+
   - year: "2023–24"
     open: true
     members:
