@@ -1,12 +1,13 @@
 import os
 import re
-import gspread
 from datetime import datetime
+
+import gspread
 from google.oauth2.service_account import Credentials
 
-# ==========================================
+# ==================================================
 # CONFIG
-# ==========================================
+# ==================================================
 
 SPREADSHEET_NAME = "Responses"
 WORKSHEET_NAME = "Form Responses 1"
@@ -14,105 +15,150 @@ POSTS_DIR = "_posts"
 
 os.makedirs(POSTS_DIR, exist_ok=True)
 
-# ==========================================
+# ==================================================
 # AUTH
-# ==========================================
+# ==================================================
 
-scopes = [
+SCOPES = [
     "https://www.googleapis.com/auth/spreadsheets",
-    "https://www.googleapis.com/auth/drive"
+    "https://www.googleapis.com/auth/drive",
 ]
 
 creds = Credentials.from_service_account_file(
     "credentials.json",
-    scopes=scopes
+    scopes=SCOPES,
 )
 
 client = gspread.authorize(creds)
 
 sheet = client.open(SPREADSHEET_NAME).worksheet(WORKSHEET_NAME)
 
-rows = sheet.get_all_records()
+# Read every row as a list (avoids duplicate-header problems)
+rows = sheet.get_all_values()
 
-# ==========================================
+# ==================================================
+# COLUMN INDICES
+# ==================================================
+
+TIMESTAMP = 0
+
+CATEGORY = 3
+
+JOB_TITLE = 4
+JOB_PLACE = 5
+JOB_DEADLINE = 6
+JOB_DESCRIPTION = 7
+JOB_URL = 8
+JOB_CONTACT = 9
+
+CONF_TITLE = 10
+CONF_PLACE = 11
+CONF_START = 12
+CONF_END = 13
+CONF_REG = 14
+CONF_ABS = 15
+CONF_DESCRIPTION = 16
+CONF_URL = 17
+CONF_CONTACT = 18
+
+NEWS_TITLE = 19
+NEWS_DESCRIPTION = 20
+NEWS_URL = 21
+NEWS_CONTACT = 22
+
+STATUS = 23
+
+# ==================================================
 # HELPERS
-# ==========================================
-
-def slugify(text):
-    return re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
+# ==================================================
 
 def clean(x):
     return str(x).strip()
 
-# ==========================================
+def slugify(text):
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+# ==================================================
 # PROCESS
-# ==========================================
+# ==================================================
 
 created = 0
 
-for i, row in enumerate(rows, start=2):   # row 2 = first data row
+# Skip header row
+for sheet_row_number, row in enumerate(rows[1:], start=2):
 
-    status = clean(row["status"]).lower()
+    # Pad short rows if necessary
+    while len(row) <= STATUS:
+        row.append("")
+
+    status = clean(row[STATUS]).lower()
 
     if status != "approved":
         continue
 
-    category = clean(row["What type of announcement are you making?"]).lower()
+    category = clean(row[CATEGORY]).lower()
 
     title = ""
     body = ""
 
-    # ---------------- JOB ----------------
+    # ==================================================
+    # JOB
+    # ==================================================
 
     if category == "job":
-        title = clean(row["Job Title"])
+
+        title = clean(row[JOB_TITLE])
 
         body = f"""
-**Location:** {clean(row["Place (City, Country)"])}
+**Location:** {clean(row[JOB_PLACE])}
 
-**Deadline:** {clean(row["Application Deadline (dd-mm-yyyy)"])}
+**Deadline:** {clean(row[JOB_DEADLINE])}
 
-{clean(row["Job Description (please do not use external links or HTML)"])}
+{clean(row[JOB_DESCRIPTION])}
 
-**Website:** <{clean(row["Job URL"])}>
+**Website:** <{clean(row[JOB_URL])}>
 
-**Contact:** {clean(row["Job Contact Email (use AT instead of @)"])}
+**Contact:** {clean(row[JOB_CONTACT])}
 """
 
-    # ---------------- CONFERENCE ----------------
+    # ==================================================
+    # CONFERENCE
+    # ==================================================
 
     elif category == "conference":
 
-        title = clean(row["Conference Title"])
+        title = clean(row[CONF_TITLE])
 
         body = f"""
-**Venue:** {clean(row["Place"])}
+**Venue:** {clean(row[CONF_PLACE])}
 
-**Dates:** {clean(row["Start date"])} to {clean(row["End date"])}
+**Dates:** {clean(row[CONF_START])} to {clean(row[CONF_END])}
 
-**Registration Deadline:** {clean(row["Registration deadline"])}
+**Registration Deadline:** {clean(row[CONF_REG])}
 
-**Abstract Deadline:** {clean(row["Abstract deadline"])}
+**Abstract Deadline:** {clean(row[CONF_ABS])}
 
-{clean(row["Conference Description (please do not use external links or HTML)"])}
+{clean(row[CONF_DESCRIPTION])}
 
-**Website:** <{clean(row["Conference Website"])}>
+**Website:** <{clean(row[CONF_URL])}>
 
-**Contact:** {clean(row["Contact Email (use AT instead of @)"])}
+**Contact:** {clean(row[CONF_CONTACT])}
 """
 
-    # ---------------- NEWS ----------------
+    # ==================================================
+    # NEWS
+    # ==================================================
 
     elif category == "news":
 
-        title = clean(row["News Title"])
+        title = clean(row[NEWS_TITLE])
 
         body = f"""
-{clean(row["News Description"])}
+{clean(row[NEWS_DESCRIPTION])}
 
-**Website:** <{clean(row["News URL"])}>
+**Website:** <{clean(row[NEWS_URL])}>
 
-**Contact:** {clean(row["New Contact Email (use AT instead of @)"])}
+**Contact:** {clean(row[NEWS_CONTACT])}
 """
 
     else:
@@ -121,10 +167,13 @@ for i, row in enumerate(rows, start=2):   # row 2 = first data row
     if not title:
         continue
 
-    # date
+    # ==================================================
+    # DATE
+    # ==================================================
+
     try:
-        dt = datetime.strptime(row["Timestamp"], "%m/%d/%Y %H:%M:%S")
-    except:
+        dt = datetime.strptime(clean(row[TIMESTAMP]), "%m/%d/%Y %H:%M:%S")
+    except Exception:
         dt = datetime.now()
 
     date_prefix = dt.strftime("%Y-%m-%d")
@@ -134,7 +183,7 @@ for i, row in enumerate(rows, start=2):   # row 2 = first data row
 
     filename = f"{date_prefix}-{slug}.md"
     filepath = os.path.join(POSTS_DIR, filename)
-    
+
     counter = 2
 
     while os.path.exists(filepath):
@@ -155,10 +204,10 @@ category: {category}
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(md)
 
-    print("Created:", filename)
+    print(f"Created: {filename}")
 
-    # update status column
-    sheet.update_cell(i, 24, "Published")
+    # Update status to Published
+    sheet.update_cell(sheet_row_number, STATUS + 1, "Published")
 
     created += 1
 
