@@ -7,4 +7,5 @@ vendor/
 Thumbs.db
 *.log
 *.tmp
-credentials.json
+credentials/
+pythons/
