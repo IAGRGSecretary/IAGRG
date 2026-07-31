@@ -21,6 +21,7 @@ title: News & Announcements
 
   <div class="filter-tabs">
     <button class="filter-tab active" data-filter="all">All</button>
+    <button class="filter-tab" data-filter="IAGRG-News">IAGRG-News</button>
     <button class="filter-tab" data-filter="job">Jobs</button>
     <button class="filter-tab" data-filter="conference">Conferences</button>
     <button class="filter-tab" data-filter="news">News</button>
@@ -36,6 +37,7 @@ title: News & Announcements
 
         <span class="badge badge-{{ post.category }}">
         {% case post.category %}
+          {% when "IAGRG-News" %}IAGRG-News
           {% when "job" %}Jobs
           {% when "conference" %}Conferences
           {% when "news" %}News
