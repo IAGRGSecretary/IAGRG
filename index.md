@@ -364,7 +364,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <div class="mini-updates-list">
 
-          {% assign latest_news = site.posts | where: "category", "news" %}
+          {% assign latest_news = site.posts | where: "category", "IAGRG-News" %}
 
           {% for post in latest_news limit:4 %}
           <a href="{{ post.url | relative_url }}" class="mini-update-item">
@@ -390,11 +390,12 @@ document.addEventListener("DOMContentLoaded", function () {
     <!-- RIGHT COLUMN -->
     <aside class="recent-updates">
 
-      <h3 class="section-heading">Latest Opportunities</h3>
+      <h3 class="section-heading">Latest Announcements</h3>
 
       <div class="update-cards">
 
-        {% assign opportunities = site.posts | where_exp: "post", "post.category != 'news'" %}
+        {% assign opportunities = site.posts | where_exp: "post",
+    "post.category == 'job' or post.category == 'conference' or post.category == 'news'" %}
 
         {% for post in opportunities limit:3 %}
         <a href="{{ post.url | relative_url }}" class="update-card">
@@ -403,6 +404,7 @@ document.addEventListener("DOMContentLoaded", function () {
             {% case post.category %}
               {% when "job" %}Job
               {% when "conference" %}Conference
+              {% when "news" %}News
             {% endcase %}
           </span>
 
