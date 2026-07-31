@@ -5,6 +5,7 @@
   email_1: abhiatrkmrc@gmail.com
   email_2:
   orcid: 0000-0001-5573-4704
+
 - name: Ajinkya Naik
   state: Delhi
   institution: Private
@@ -160,6 +161,7 @@
   email_1: debottam.nandi@vit.ac.in
   email_2:
   orcid: 0000-0002-7719-9623
+
 - name: Dhiraj Kuniyal
   state: Delhi
   institution: Private
@@ -1275,12 +1277,13 @@
 
 - name: George Christopher P
   state: Maharashtra
-  institution: IIT Bombay
+  institution: Indian Institute of Technology Bombay
   research: Analog Gravity, Experimental Gravity and Precision Tests,
     Gravitational Waves, Quantum Gravity and QFT in Curved Spacetime
   email_1: georgechristopher38@gmail.com
   email_2:
   orcid: 0009-0000-1381-5012
+
 - name: Gopakumar Achamveedu
   state: Maharashtra
   institution: Tata Institute of Fundamental Research
@@ -1352,6 +1355,7 @@
   email_1: kinjalb@gmail.com
   email_2:
   orcid: 0000-0002-8864-4120
+
 - name: Kishin H Mariwalla
   state: Tamil Nadu
   institution: Institute of Mathematical Sciences
@@ -1871,6 +1875,7 @@
   email_1: priyo.naoremcha@gmail.com
   email_2:
   orcid: my-orcid?orcid=0009-0000-3417-9764
+
 - name: Neeta Dandekar
   state: Delhi
   institution: Private
@@ -2356,6 +2361,7 @@
   email_1: maheshchandran14895@gmail.com
   email_2:
   orcid: 0000-0002-1476-5616
+
 - name: Sagar Soni
   state: Delhi
   institution: Private
@@ -2479,6 +2485,14 @@
   research:
   email_1: shobhit6794@gmail.com
   email_2:
+
+- name: Subhajit Saha
+  state: West Bengal
+  institution: "Jadavpur University"
+  research: Mathematics
+  email_1: subhajit1729@gmail.com
+  email_2:
+  orcid: 0000-0003-0429-6868
 
 - name: Shri Anjan Ananda Sen
   state: Delhi
