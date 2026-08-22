@@ -7,10 +7,9 @@ title: GR Books
 
 <header class="resources-header">
   <div class="container">
-    <h1>Books</h1>
+    <h1>Latest Books</h1>
     <p>
-      A curated collection of books and reference texts for learning and
-      researching general relativity, gravitation, astrophysics, and cosmology.
+     Latest books and publications in general relativity, gravitation, astrophysics, and cosmology.
     </p>
   </div>
 </header>
@@ -19,8 +18,7 @@ title: GR Books
 
   <section class="knowledge-hero-image">
 
-```
-<figure class="hub-figure">
+<!-- <figure class="hub-figure">
   <img
     src="{{ '/assets/img/mega-science_banner_smaller.webp' | relative_url }}"
     alt="From micro to macro: understanding the universe through mega science projects"
@@ -29,7 +27,7 @@ title: GR Books
   <figcaption>
     Visual courtesy of <strong>Vigyan Samagam</strong>
   </figcaption>
-</figure>
+</figure> -->
 
   </section>
 
@@ -43,12 +41,13 @@ title: GR Books
 
   <!-- Book 1 -->
 
-  <a
-    href="https://www.routledge.com/General-Relativity-and-Its-Applications-Black-Holes-Compact-Stars-and-Gravitational-Waves/Ferrari-Gualtieri-Pani/p/book/9781041098744"
-    class="resource-card"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
+<a
+href="https://www.routledge.com/General-Relativity-and-Its-Applications-Black-Holes-Compact-Stars-and-Gravitational-Waves/Ferrari-Gualtieri-Pani/p/book/9781041098744"
+class="resource-card"
+target="\_blank"
+rel="noopener noreferrer"
+
+>
 
     <div class="resource-header">
 
@@ -104,13 +103,11 @@ title: GR Books
 
 </div>
 
-
   </section>
 
   <!-- Cosmology & Relativistic Astrophysics -->
 
   <section class="resource-section">
-
 
 <h2 class="category-title">
   Cosmology &amp; Relativistic Astrophysics
@@ -120,12 +117,13 @@ title: GR Books
 
   <!-- Book 2 -->
 
-  <a
-    href="https://www.worldscientific.com/worldscibooks/10.1142/14191"
-    class="resource-card"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
+<a
+href="https://www.worldscientific.com/worldscibooks/10.1142/14191"
+class="resource-card"
+target="\_blank"
+rel="noopener noreferrer"
+
+>
 
     <div class="resource-header">
 
@@ -179,7 +177,6 @@ title: GR Books
   </a>
 
 </div>
-```
 
   </section>
 
