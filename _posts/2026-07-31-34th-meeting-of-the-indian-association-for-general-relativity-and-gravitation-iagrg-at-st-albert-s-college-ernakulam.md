@@ -5,7 +5,8 @@ date: 2026-07-31 21:00:00 +0530
 category: IAGRG-News
 ---
 
-<h2>Gravitation: Frontiers and Beyond</h2>
+<h2><a href="https://iagrg2027sac.com/" target="_blank" rel="noopener"> Gravitation: Frontiers and Beyond</a></h2>
+
 
 <p>
 The <strong>Indian Association for General Relativity and Gravitation (IAGRG)</strong>
