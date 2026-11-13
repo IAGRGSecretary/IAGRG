@@ -2,14 +2,7 @@
 layout: post
 title: "Call for Nominations: N R Sen Young Researcher Award -- 34th
   IAGRG Meeting"
-date: "2026-11-13 21:00:00 +0530"
-category: IAGRG-News
----
-
----
-layout: post
-title: "Call for Nominations: N R Sen Young Researcher Award -- 34th IAGRG Meeting"
-date: 2026-11-13 21:00:00 +0530
+date: "2026-11-01 21:00:00 +0530"
 category: IAGRG-News
 ---
 
@@ -40,9 +33,10 @@ Further information is available on the
         <li>As of December 31, 2025, the age limit is 40 years for men and 42 years for women who have availed of maternity/child-care leave or had career breaks.</li>
     </ul>
     <p>
-    Please consult the attached <em>NRSENAward.pdf</em> for the complete terms
-    and conditions of the award.
-    </p>
+Please consult the attached
+<a href="{{ '/assets/mem-files/NRSENAward.pdf' | relative_url }}" target="_blank" rel="noopener">N R Sen Young Researcher Award – Terms and Conditions (PDF)</a>
+for the complete terms and conditions of the award.
+</p>
 </div>
 
 <h3>Nomination Requirements</h3>

@@ -2,14 +2,7 @@
 layout: post
 title: "Call for Applications: V. V. Narlikar Best Thesis Award -- 34th
   IAGRG Meeting"
-date: "2026-11-13 21:00:00 +0530"
-category: IAGRG-News
----
-
----
-layout: post
-title: "Call for Applications: V. V. Narlikar Best Thesis Award -- 34th IAGRG Meeting"
-date: 2026-11-13 21:00:00 +0530
+date: "2026-11-01 21:00:00 +0530"
 category: IAGRG-News
 ---
 
